@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ceb34890dc15418f82e3e0e525d0a8b9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ceb34890dc15418f82e3e0e525d0a8b9" ></div>
+        
+</body>
+<script>    
+    
+            var map_ceb34890dc15418f82e3e0e525d0a8b9 = L.map(
+                "map_ceb34890dc15418f82e3e0e525d0a8b9",
+                {
+                    center: [42.32, -71.0589],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_50b7827598e74b94aedb164acf50b68d = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ceb34890dc15418f82e3e0e525d0a8b9);
+        
+    
+            var marker_cluster_ac0e64e799874fd7a88d87283d613804 = L.markerClusterGroup(
+                {}
+            );
+            map_ceb34890dc15418f82e3e0e525d0a8b9.addLayer(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            var marker_bc3c7bd13e934c9eac982b71b2c846ce = L.marker(
+                [32.377716, -86.300568],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_bc3c7bd13e934c9eac982b71b2c846ce.bindTooltip(
+                `<div>
+                     61.83%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbd7557c90da439b8eadba4c5ffa0110 = L.marker(
+                [58.301598, -134.420212],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_bbd7557c90da439b8eadba4c5ffa0110.bindTooltip(
+                `<div>
+                     68.47%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d3afbdd8dab414f95a177455be618cb = L.marker(
+                [33.448143, -112.096962],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_5d3afbdd8dab414f95a177455be618cb.bindTooltip(
+                `<div>
+                     71.33%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbd3149bcb684f6f9b3b612bc880d474 = L.marker(
+                [34.746613, -92.288986],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_fbd3149bcb684f6f9b3b612bc880d474.bindTooltip(
+                `<div>
+                     65.67%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_299bc4bfaa2a410d98c2284c11cc9a05 = L.marker(
+                [38.576668, -121.493629],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_299bc4bfaa2a410d98c2284c11cc9a05.bindTooltip(
+                `<div>
+                     81.71%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acb3cb5f7a6842afbc0e3aaa529441bd = L.marker(
+                [39.739227, -104.984856],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_acb3cb5f7a6842afbc0e3aaa529441bd.bindTooltip(
+                `<div>
+                     78.27%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e30623d4ee147ebac352d4493163091 = L.marker(
+                [41.764046, -72.682198],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_5e30623d4ee147ebac352d4493163091.bindTooltip(
+                `<div>
+                     93.83%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0bd2c90a4e748febea2de74ba6d1f00 = L.marker(
+                [39.157307, -75.519722],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_f0bd2c90a4e748febea2de74ba6d1f00.bindTooltip(
+                `<div>
+                     81.63%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71e30bd4b62d43ecaa6f13a7eaf4bba5 = L.marker(
+                [38.89511, -77.03637],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_71e30bd4b62d43ecaa6f13a7eaf4bba5.bindTooltip(
+                `<div>
+                     94.98%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0085b253668444e28926e241bd8ab6d3 = L.marker(
+                [30.438118, -84.281296],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_0085b253668444e28926e241bd8ab6d3.bindTooltip(
+                `<div>
+                     77.95%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2dbf09a6ae04e9eb0d7fedd0d4ef974 = L.marker(
+                [33.749027, -84.388229],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_c2dbf09a6ae04e9eb0d7fedd0d4ef974.bindTooltip(
+                `<div>
+                     64.27%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f2cf4b0c6894c71ae81242160b4d7ea = L.marker(
+                [21.307442, -157.857376],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_4f2cf4b0c6894c71ae81242160b4d7ea.bindTooltip(
+                `<div>
+                     86.13%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_235b6d7cde00485a96aa638ab026a9cc = L.marker(
+                [43.617775, -116.199722],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_235b6d7cde00485a96aa638ab026a9cc.bindTooltip(
+                `<div>
+                     60.24%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82fe0de94c314165b8a9b821fe032d42 = L.marker(
+                [39.798363, -89.654961],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_82fe0de94c314165b8a9b821fe032d42.bindTooltip(
+                `<div>
+                     75.97%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1860a6e67e58449b8291a4e6821369de = L.marker(
+                [39.768623, -86.162643],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_1860a6e67e58449b8291a4e6821369de.bindTooltip(
+                `<div>
+                     60.6%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df5c7b68ec4c442db8a618761cadf6be = L.marker(
+                [41.591087, -93.603729],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_df5c7b68ec4c442db8a618761cadf6be.bindTooltip(
+                `<div>
+                     67.22%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cfa4b9144d344ea9f286b16f3999ca1 = L.marker(
+                [39.048191, -95.677956],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_7cfa4b9144d344ea9f286b16f3999ca1.bindTooltip(
+                `<div>
+                     73.33%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67434879be19439db0124ad53c496a40 = L.marker(
+                [38.186722, -84.875374],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_67434879be19439db0124ad53c496a40.bindTooltip(
+                `<div>
+                     65.24%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f6bc14ade2b454f990fe835022dd88f = L.marker(
+                [30.457069, -91.187393],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_0f6bc14ade2b454f990fe835022dd88f.bindTooltip(
+                `<div>
+                     60.04%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_127810b519374d4580762eb86cb3bbe8 = L.marker(
+                [44.307167, -69.781693],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_127810b519374d4580762eb86cb3bbe8.bindTooltip(
+                `<div>
+                     89.25%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4eecba19b034b5897a90baf924bb95f = L.marker(
+                [38.978764, -76.490936],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_e4eecba19b034b5897a90baf924bb95f.bindTooltip(
+                `<div>
+                     84.74%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ed13a0633d4051966235119513c699 = L.marker(
+                [42.358162, -71.063698],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_c4ed13a0633d4051966235119513c699.bindTooltip(
+                `<div>
+                     96.4%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff9e38e13ded407f9c774b217cff12f4 = L.marker(
+                [42.733635, -84.555328],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_ff9e38e13ded407f9c774b217cff12f4.bindTooltip(
+                `<div>
+                     66.03%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49198b29c4384248b290d25fe48563af = L.marker(
+                [44.955097, -93.102211],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_49198b29c4384248b290d25fe48563af.bindTooltip(
+                `<div>
+                     74.27%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75f44d39e7734205bb18a7a297467675 = L.marker(
+                [32.303848, -90.182106],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_75f44d39e7734205bb18a7a297467675.bindTooltip(
+                `<div>
+                     58.73%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2d47c597f8f43a29b467d1f1baf28de = L.marker(
+                [38.579201, -92.172935],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_f2d47c597f8f43a29b467d1f1baf28de.bindTooltip(
+                `<div>
+                     65.29%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd3550ed8e9a4d328268074f3a254d4f = L.marker(
+                [46.585709, -112.018417],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_cd3550ed8e9a4d328268074f3a254d4f.bindTooltip(
+                `<div>
+                     64.44%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77e8d5b6f540456fb65c7d8c9b42dc40 = L.marker(
+                [40.808075, -96.699654],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_77e8d5b6f540456fb65c7d8c9b42dc40.bindTooltip(
+                `<div>
+                     69.32%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89ad5f2189a84aa8a14f298292ac3773 = L.marker(
+                [39.163914, -119.766121],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_89ad5f2189a84aa8a14f298292ac3773.bindTooltip(
+                `<div>
+                     73.93%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b14bc8c5626c4cb2b947ad011b3cf202 = L.marker(
+                [43.206898, -71.537994],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_b14bc8c5626c4cb2b947ad011b3cf202.bindTooltip(
+                `<div>
+                     107.77%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_227adab207214a7da3571f0ee8cf683b = L.marker(
+                [40.220596, -74.769913],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_227adab207214a7da3571f0ee8cf683b.bindTooltip(
+                `<div>
+                     88.85%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e34b016619cd49968cbb06c9c6d796c0 = L.marker(
+                [35.68224, -105.939728],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_e34b016619cd49968cbb06c9c6d796c0.bindTooltip(
+                `<div>
+                     85.85%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b85cd8983878451986427dd053ea1e7b = L.marker(
+                [35.78043, -78.639099],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_b85cd8983878451986427dd053ea1e7b.bindTooltip(
+                `<div>
+                     82.16%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b32c8823f7a4b5bac87732becac8ad1 = L.marker(
+                [46.82085, -100.783318],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_4b32c8823f7a4b5bac87732becac8ad1.bindTooltip(
+                `<div>
+                     64.42%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eeb951b60b543878f7c12b7fc1585e4 = L.marker(
+                [39.961346, -82.999069],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_6eeb951b60b543878f7c12b7fc1585e4.bindTooltip(
+                `<div>
+                     62.82%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f645c4170c4a41ed8251827038a399e6 = L.marker(
+                [35.492207, -97.503342],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_f645c4170c4a41ed8251827038a399e6.bindTooltip(
+                `<div>
+                     69.93%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00d4710876304457bc684e6676e32d4b = L.marker(
+                [44.938461, -123.030403],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_00d4710876304457bc684e6676e32d4b.bindTooltip(
+                `<div>
+                     76.86%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db80adba63d841c9a03288e19ce8737f = L.marker(
+                [40.264378, -76.883598],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_db80adba63d841c9a03288e19ce8737f.bindTooltip(
+                `<div>
+                     83.21%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1858dac6639d447ba6a1a148f391c05b = L.marker(
+                [41.830914, -71.414963],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_1858dac6639d447ba6a1a148f391c05b.bindTooltip(
+                `<div>
+                     96.15%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59cc116d86f944f0a1903f50dc425e7f = L.marker(
+                [34.000343, -81.033211],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_59cc116d86f944f0a1903f50dc425e7f.bindTooltip(
+                `<div>
+                     66.42%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0d3492d7eb84cd2958b687a371c8499 = L.marker(
+                [44.367031, -100.346405],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_a0d3492d7eb84cd2958b687a371c8499.bindTooltip(
+                `<div>
+                     74.84%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d1284b3d07f46d4acf0cd2276fbacec = L.marker(
+                [36.16581, -86.784241],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_6d1284b3d07f46d4acf0cd2276fbacec.bindTooltip(
+                `<div>
+                     61.29%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32ae5d4098834eb1a3f1cedf2977ba8f = L.marker(
+                [30.27467, -97.740349],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_32ae5d4098834eb1a3f1cedf2977ba8f.bindTooltip(
+                `<div>
+                     70.83%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7b4842ea5ad43c08884d4bca60d63a1 = L.marker(
+                [40.777477, -111.888237],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_f7b4842ea5ad43c08884d4bca60d63a1.bindTooltip(
+                `<div>
+                     71.17%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06495b87762340c0ae38fac86ead2594 = L.marker(
+                [44.262436, -72.580536],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_06495b87762340c0ae38fac86ead2594.bindTooltip(
+                `<div>
+                     92.84%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6c8d3e0ed68412fa467db6914029398 = L.marker(
+                [37.538857, -77.43364],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_c6c8d3e0ed68412fa467db6914029398.bindTooltip(
+                `<div>
+                     84.38%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a60cb46787c648b1b5c3a0e06cce9547 = L.marker(
+                [47.035805, -122.905014],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_a60cb46787c648b1b5c3a0e06cce9547.bindTooltip(
+                `<div>
+                     79.65%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00c646b03b4a47f19aeb085f461a39fc = L.marker(
+                [38.336246, -81.612328],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_00c646b03b4a47f19aeb085f461a39fc.bindTooltip(
+                `<div>
+                     64.13%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6d3985099e14110963554c3bdfecf81 = L.marker(
+                [43.074684, -89.384445],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_b6d3985099e14110963554c3bdfecf81.bindTooltip(
+                `<div>
+                     71.0%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ca82911da5840aa809848e5b12f7688 = L.marker(
+                [41.140259, -104.820236],
+                {}
+            ).addTo(marker_cluster_ac0e64e799874fd7a88d87283d613804);
+        
+    
+            marker_8ca82911da5840aa809848e5b12f7688.bindTooltip(
+                `<div>
+                     57.94%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
